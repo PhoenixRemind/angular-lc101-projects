@@ -1,0 +1,14 @@
+.chores {
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: .75px;
+}
+
+h3 {
+    display: inline-block;
+    border-bottom: 4px solid green;
+}
+
+ul {
+    font-style: italic;
+}
