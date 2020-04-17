@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PageTitleComponent implements OnInit {
 title = "This title is better than page-title";
-  constructor(title) {}
+
+  constructor() {}
 
   ngOnInit() {
   }
