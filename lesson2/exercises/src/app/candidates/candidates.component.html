@@ -5,7 +5,7 @@
         <div class="candidates col-3">
             <h2>Candidates</h2>
             <ol>
-                <li>Use *ngFor to automatically list all of the candidates' names.</li>
+                <li (click) = "selected = candidate" *ngFor ="let candidate of candidates">{{candidate.name}}</li>
             </ol>
         </div>
     
@@ -13,6 +13,9 @@
             <h2>Candidate Data</h2>
             <p> <!-- Add an *ngIf to this tag to display the selected candidate's data-->
                 {{selected.name}}
+                {{selected.data.age}}
+                {{selected.data.mass}}
+                {{selected.data.sidekick}}
             </p>
         </div>
     
